@@ -4,14 +4,14 @@
 
 
 		<!-- Would be to display sidebar -->
-		<div class="col-md-3">
+		<%-- <div class="col-md-3">
 
 			<%@include file="./shared/sidebar.jsp"%>
 
-		</div>
+		</div> --%>
 
 		<!-- to display the actual products -->
-		<div class="col-md-9">
+		<div class="col-md-12">
 
 			<!-- Added breadcrumb component -->
 			<div class="row">

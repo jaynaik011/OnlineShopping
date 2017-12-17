@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.onlineshopping.service.CartService;
+import com.shoppingbackend.daoimpl.CartDaoImpl;
+
+
 
 @Controller
 @RequestMapping("/cart")
@@ -18,7 +20,7 @@ public class CartController {
 	private final static Logger logger = LoggerFactory.getLogger(CartController.class);
 	
 	@Autowired
-	private CartService cartService;
+	private CartDaoImpl cartService;
 	@RequestMapping("/show")
 	public ModelAndView showCart(@RequestParam(name = "result", required = false) String result) {
 		
