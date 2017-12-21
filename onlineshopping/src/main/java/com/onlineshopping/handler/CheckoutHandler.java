@@ -11,18 +11,18 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.onlineshopping.model.CheckoutModel;
-import com.onlineshopping.model.UserModel;
 import com.shoppingbackend.dao.CartLineDAO;
 import com.shoppingbackend.dao.ProductDAO;
 import com.shoppingbackend.dao.UserDAO;
 import com.shoppingbackend.dto.Address;
 import com.shoppingbackend.dto.Cart;
 import com.shoppingbackend.dto.CartLine;
+import com.shoppingbackend.dto.CheckoutModel;
 import com.shoppingbackend.dto.OrderDetail;
 import com.shoppingbackend.dto.OrderItem;
 import com.shoppingbackend.dto.Product;
 import com.shoppingbackend.dto.User;
+import com.shoppingbackend.dto.UserModel;
 
 
 

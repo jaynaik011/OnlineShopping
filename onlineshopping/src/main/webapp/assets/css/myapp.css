@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 html {
 	height: 100%;
 }
@@ -255,3 +251,21 @@ input:checked+.slider:before {
 	z-index: 9999;
 	background: url(../images/pre-loader.gif) 50% no-repeat #fff
 }
+
+/* CUSTOM CSS FOR FOOTER */
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }

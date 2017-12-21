@@ -80,7 +80,14 @@
 							</div>
 						</div>
 
-
+						<div class="form-group">
+							<label class="control-label col-md-4">Supplier</label>
+							<div class="col-md-8">
+								<sf:select path="supplierId" items="${supplierId}"
+									itemLabel="name" itemValue="id" class="form-control" />
+								
+							</div>
+						</div>
 						<div class="form-group">
 							<label class="control-label col-md-4">Category</label>
 							<div class="col-md-8">

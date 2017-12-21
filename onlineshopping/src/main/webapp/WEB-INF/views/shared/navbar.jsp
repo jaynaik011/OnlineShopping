@@ -24,7 +24,7 @@
 
 				<li id="contact"><a href="${contextRoot}/contact">Contact</a></li>
 
-				
+				<li><a href="${contextRoot}/show/all/products">All Movies</a></li>
 				<security:authorize access="hasAuthority('ADMIN')">
 					<li id="manageProduct"><a href="${contextRoot}/manage/product">Manage
 							Movies</a></li>
@@ -32,16 +32,14 @@
 				<li class="dropdown"><a href="#" data-toggle="dropdown"
 					class="dropdown-toggle">Category<b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="${contextRoot}/show/all/products">All Movies</a></li>
-						<li class="divider"></li>
+
 						<div class="list-group">
 							<c:forEach items="${categories}" var="category">
 								<a href="${contextRoot}/show/category/${category.id}/products"
 									class="list-group-item" id="a_${category.name}">${category.name}</a>
 							</c:forEach>
 						</div>
-					</ul>
-					</li>
+					</ul></li>
 			</ul>
 
 			<ul class="nav navbar-nav navbar-right">

@@ -8,10 +8,9 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-import com.onlineshopping.model.UserModel;
 import com.shoppingbackend.dao.UserDAO;
-import com.shoppingbackend.dto.Cart;
 import com.shoppingbackend.dto.User;
+import com.shoppingbackend.dto.UserModel;
 
 @ControllerAdvice
 public class GlobalController {
